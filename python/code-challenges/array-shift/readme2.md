@@ -4,4 +4,4 @@
 - It took almost 2 hours 
 - 
 
-![](image/challange2.png)
+![](challange2.png)
