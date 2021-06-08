@@ -3,4 +3,4 @@
 |code       |Link       |
 |-----------|-----------|
 |reverse-aay.py   |[Growth Mindset](code-challenges/reverse-array.py)|
-|Read03a    |[HTML](102/Read03a.md)|
+|code2   |[pull](https://github.com/suhaib079/data-structures-and-algorithms/pull/2)|
