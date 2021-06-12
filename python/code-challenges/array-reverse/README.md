@@ -1,6 +1,11 @@
+
+-
+# Binary search:
+- This challenge asked me to reverise an array .
+
+# Whiteboard process:
 ![](challenge1.JPG)
-# reverse an array:
-- I started at 7:00pm
-- I finished at 9:20pm 
-- It took almost 2 hours 
-- 
+
+
+# Approach & Efficiency:
+- I just used the range with -1 .
