@@ -8,3 +8,4 @@
 |code2   |[pull](https://github.com/suhaib079/data-structures-and-algorithms/pull/2)|
 |array-binary-search   |[pull](https://github.com/suhaib079/data-structures-and-algorithms/pull/5)|
 |linked-list  |[pull](https://github.com/suhaib079/data-structures-and-algorithms/pull/8|
+|code6  |[pull](https://github.com/suhaib079/data-structures-and-algorithms/pull/10|
