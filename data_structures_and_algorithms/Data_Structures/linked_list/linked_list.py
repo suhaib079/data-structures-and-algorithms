@@ -1,3 +1,6 @@
+from typing import List
+
+
 class Node:
     def __init__(self,value):
         self.value=value
@@ -86,32 +89,20 @@ class LinkedList :
             current = current.next 
 
     def kth_from_end(self, k):
-        '''
-        Return node value (k) from the end of the list
-
-        '''
-
-        try:
-                
-            n = -1
-            current = self.head
-            while current:
-                current = current.next
-                n = n + 1
-            if n >= k:
-                current = self.head
-                for i in range(n - k):
-                    current = current.next
-            return current.value
-        except:
-            return "The Value Not Exist"
-
-              
-
-
-
-
-
+        
+        List = []
+        current = self.head
+        if k < 0:
+            return("value must be higher than 0 ")
+        while current:
+            List.append(current)
+            current = current.next
+        if len(List) < k:
+           return("list is not that long")
+        List.reverse()
+        if k == len(List):
+            k = k -1
+        return List[k].value        
 
 
 if __name__ == "__main__":

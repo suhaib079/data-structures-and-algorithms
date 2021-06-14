@@ -85,7 +85,7 @@ def test_kth_from_end_0():
     ll.append(1)
     ll.append(3)
     ll.append(8)
-    expected = "The Value Not Exist"
+    expected = 1
     actual =ll.kth_from_end(3)
     assert expected == actual
     
@@ -99,7 +99,7 @@ def test_kth_from_end_6():
     ll.append(3)
     ll.append(8)
     ll.append(2)
-    expected = "The Value Not Exist"
+    expected = "list is not that long"
     actual =ll.kth_from_end(6)
     assert expected == actual
 
@@ -139,6 +139,51 @@ def test_kth_from_end_negative():
     ll.append(3)
     ll.append(8)
     ll.append(2)
-    expected = "The Value Not Exist"
+    expected = "value must be higher than 0 "
     actual =ll.kth_from_end(-2)
     assert expected == actual
+def test_LinkedList_kth_from():
+    ll = LinkedList()
+    ll.insert(2)
+    ll.insert(8)
+    ll.insert(3)
+    ll.insert(1)
+    actual = ll.kth_from_end(0)
+    expected = 2
+    assert actual == expected
+
+def test_LinkedList_kth():
+    ll = LinkedList()
+    ll.insert(2)
+    ll.insert(1)
+    ll.insert(8)
+    ll.insert(1)
+    actual = ll.kth_from_end(2)
+    expected = 8
+    assert actual == expected
+
+def test_check_last_value():
+    li = LinkedList()
+    li.append(3)
+    li.append(2)
+    li.append(1)
+    expected = 3
+    actual = li.kth_from_end(3)
+    assert actual == expected
+
+def test_linked_list_size_1():
+    li = LinkedList()
+    li.append(1)
+    actual = li.kth_from_end(1)
+    expected = 1    
+    assert actual == expected
+
+def test_value_in_the_middle():
+    li = LinkedList()
+    li.append(3)
+    li.append(2)
+    li.append(1)
+    actual = li.kth_from_end(2)
+    expected = 3
+    assert actual == expected 
+
