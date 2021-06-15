@@ -9,4 +9,5 @@
 |array-binary-search   |[pull](https://github.com/suhaib079/data-structures-and-algorithms/pull/5)|
 |linked-list  |[pull](https://github.com/suhaib079/data-structures-and-algorithms/pull/8|
 |code6  |[pull](https://github.com/suhaib079/data-structures-and-algorithms/pull/10|
-|code7 |[pull](https://github.com/suhaib079/data-structures-and-algorithms/pull/10|
+|code7 |[pull](https://github.com/suhaib079/data-structures-and-algorithms/pull/12|
+|code8 |[pull](https://github.com/suhaib079/data-structures-and-algorithms/pull/13|
