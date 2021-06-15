@@ -1,4 +1,4 @@
-from data_structures_and_algorithms.Data_Structures.linked_list.linked_list import LinkedList
+from data_structures_and_algorithms.Data_Structures.linked_list.linked_list import LinkedList, zipLists
 import pytest
 
 
@@ -186,4 +186,34 @@ def test_value_in_the_middle():
     actual = li.kth_from_end(2)
     expected = 3
     assert actual == expected 
+
+# zip test 
+
+def test_zipLists(): 
+    list1 = LinkedList() 
+    list1.append(1) 
+    list1.append(2) 
+    list1.append(3) 
+    list2 = LinkedList() 
+    list2.append('a') 
+    list2.append('b') 
+    list2.append('c')
+    assert zipLists(list1,list2) == "{1}->{a}->{2}->{b}->{3}->{c}->NULL"
+
+
+
+# ZIP LIST WHEN AN ARRAY IS LONGER THAN OTHER
+def test_zipLists2(): 
+    list1 = LinkedList() 
+    list1.append(1) 
+    list1.append(2) 
+    list1.append(3) 
+    list1.append(0) 
+    list2 = LinkedList() 
+    list2.append('a') 
+    list2.append('b') 
+    list2.append('c')
+    assert zipLists(list1,list2) == "{1}->{a}->{2}->{b}->{3}->{c}->{0}->NULL"    
+
+
 

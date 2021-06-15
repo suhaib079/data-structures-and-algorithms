@@ -103,7 +103,23 @@ class LinkedList :
         if k == len(List):
             k = k -1
         return List[k].value        
-
+def zipLists(list1,list2):
+    if not (list1 and list2) :
+        return list1 
+     
+    list3 =LinkedList()
+    curr1 =list1.head
+    curr2 =list2.head
+    while curr1:
+        list3.append(curr1.value)
+        if curr2:
+            list3.append(curr2.value)
+            curr2 = curr2.next
+        curr1= curr1.next
+    while curr2 :
+        list3.append(curr2.value)
+        curr2 =curr2.next
+    return list3.__str__()
 
 if __name__ == "__main__":
     #pass
