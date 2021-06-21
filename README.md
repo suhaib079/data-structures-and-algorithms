@@ -13,3 +13,4 @@
 |code8 |[pull](https://github.com/suhaib079/data-structures-and-algorithms/pull/13|
 |code10 |[pull](https://github.com/suhaib079/data-structures-and-algorithms/pull/14|
 |code11 |[pull](https://github.com/suhaib079/data-structures-and-algorithms/pull/16|
+|code12 |[pull](https://github.com/suhaib079/data-structures-and-algorithms/pull/18|
