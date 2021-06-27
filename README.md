@@ -15,5 +15,4 @@
 |code11 |[pull](https://github.com/suhaib079/data-structures-and-algorithms/pull/16|
 |code12 |[pull](https://github.com/suhaib079/data-structures-and-algorithms/pull/17|
 |code13 |[pull](https://github.com/suhaib079/data-structures-and-algorithms/pull/18|
-|code15 |[pull](https://github.com/suhaib079/data-structures-and-algorithms/pull/19|
-|code15 |[pull](https://github.com/suhaib079/data-structures-and-algorithms/pull/21|
+|code15 |[pull](https://github.com/suhaib079/data-structures-and-algorithms/blob/tree-max/trees/maxtree.md|
