@@ -51,12 +51,12 @@ class BinaryTree:
 
     def add(self, val, root=None):
         self.tree_list = []
-        def inner_function(val):
+        def adding_function(val):
             self.root=None
             if not self.root:
                 self.root = Node(val)
             elif not root:
-                inner_function(val, self.root)
+                adding_function(val, self.root)
 
             else:
                 self.tree_list.append(root.val)
@@ -65,14 +65,14 @@ class BinaryTree:
                         root.left = Node(val)
                         self.tree_list.append(root.left.val)
                     else:
-                        inner_function(val, root.left)
+                        adding_function(val, root.left)
                 if val > root.val:
                     if not root.right:
                         root.right = Node(val)
                         self.tree_list.append(root.right.val)
                     else:
-                        inner_function(val, root.right)
-        inner_function(val)
+                        adding_function(val, root.right)
+        adding_function(val)
         return self.tree_list
 
 
