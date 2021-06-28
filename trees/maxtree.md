@@ -8,12 +8,5 @@ testing .
 O(N) for time O(1) for space
 
  # Solution
-![](code16.png)
+![](code17.png)
 
-# api 
-create  tree.
-
-max value function
-
-
-Find max value 
