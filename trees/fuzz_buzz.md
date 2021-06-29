@@ -7,3 +7,4 @@
 BigO = O(n)
 
 # Solution
+![](code18.png)
