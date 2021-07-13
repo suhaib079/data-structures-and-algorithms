@@ -19,6 +19,7 @@
 |code17 |[pull](https://github.com/suhaib079/data-structures-and-algorithms/blob/main/trees/breadth_first.md|
 |code26 |[pull](https://github.com/suhaib079/data-structures-and-algorithms/pull/27|
 |code27 |[pull](https://github.com/suhaib079/data-structures-and-algorithms/pull/29|
+|code28 |[pull](https://github.com/suhaib079/data-structures-and-algorithms/pull/31|
 
 
 
