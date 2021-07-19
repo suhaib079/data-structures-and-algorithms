@@ -8,18 +8,14 @@ class Linked_list():
          self.head = None
 
     def insert(self, val):
-        '''
-        inserts a value in front of the list
-        '''
+       
         new_node = Node(val)
         new_node.next = self.head
         self.head = new_node
 
 
     def includes(self, x):
-        '''
-        checks if the value provided is inside the list or not
-        '''
+       
         current = self.head
         try:
             while current != None:
@@ -31,9 +27,7 @@ class Linked_list():
             print("Syntax Error")
 
     def __str__(self):
-        '''
-        returns a string of the list contents
-        '''
+        
         output = ''
         current = self.head
         if current:
@@ -59,7 +53,7 @@ class Linked_list():
     def insertAfter(self, val, new_value):
 
         if val is None:
-            return print("The value to insert after is not in the Node")
+            return print("The value after is not in the Node")
         else:
             current = self.head
             new_node = Node(new_value)
@@ -88,17 +82,17 @@ class Linked_list():
                     return
                 else:
                     current = current.next
-            print('The value to insert before is not in the Node')
+            print('The value  is not in the Node')
 
 
     def kthFromEnd(self, k, from_node=None):
 
         current = self.head
         if current == None:
-            return print('linked list is empty')
+            return print('linked list  empty')
 
         if k < 0:
-            return print("k should be a larger or equal to 0")
+            return print("k must be larger or equal to 0")
 
         length = 0
         while current is not None:
