@@ -1,9 +1,20 @@
-# hashtables
-- In computing, a hash table (hash map) is a data structure that implements an associative array abstract data type, a structure that can map keys to values. A hash table uses a hash function to compute an index, also called a hash code, into an array of buckets or slots, from which the desired value can be found.
+# Hashtables
+Hashtables are a data structure that utilize key value pairs. This means every Node or Bucket has both a key, and a value.
 
-## challenge:
-- Implement a functioning hash table and test it
+# Challenge
+The challenge was with collisions and implementing a linked list to solve them, also with testing internals.
 
-## approach and efficiency:
-- Single-responsibility principle
+# Approach & Efficiency
+The approach used is to convert the key of the input into index and put the key value object in the hashtable, that contains a linked list for the collisions.
 
+# Big O Notation
+Time: O(N)
+Space: O(1)
+
+# API
+
+Insert key, value pair in the hashtable.
+Hash keys to determine is which index it should be added.
+Make a link_list to handle collisions.
+Retrieve the value of the bucket using its key.
+Determine if a specific key is inside the hashtable or not.
