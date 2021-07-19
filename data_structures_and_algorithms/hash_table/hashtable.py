@@ -8,7 +8,7 @@ class Hashtable():
         sum = 0
         for char in key:
             sum += ord(char)
-        hash_num = (sum * 29) % self.size
+        hash_num = (sum * 39) % self.size
         return hash_num
 
     def add(self, key, value):
@@ -46,10 +46,10 @@ class Hashtable():
 
 if __name__ == "__main__":
     hashmap = Hashtable()
-    print(hashmap.add("Hello", "Hi"))
-    print(hashmap.add("How are", "you"))
-    print(hashmap.add("What are", "you doing"))
-    print(hashmap.get('How are'))
-    print(hashmap.contains('What are'))
-    print(hashmap.contains('What '))
-    # print(hashmap.get('wait'))
+    print(hashmap.add("hi", "there"))
+    print(hashmap.add("how you", "doing"))
+    print(hashmap.add("whats up", "doing okay"))
+    print(hashmap.get('suhaib'))
+    print(hashmap.contains('whats your name'))
+    print(hashmap.contains('asac '))
+   
