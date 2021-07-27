@@ -1,4 +1,15 @@
 from data_structures_and_algorithms.hash_table.linked_list import Node ,Linked_list
+
+class TNode:
+  def __init__(self, value=None):
+    self.value = value
+    self.left = None
+    self.right = None
+
+class BinaryTree:
+    def __init__(self, root=None):
+        self.root = root
+        self.tree_list = []
 class Hashtable():
     def __init__(self, size=1024):
         self.size = size
