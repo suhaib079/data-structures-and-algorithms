@@ -24,6 +24,7 @@
 |code31 |[pull](https://github.com/suhaib079/data-structures-and-algorithms/pull/36|
 |code32 |[pull](https://github.com/suhaib079/data-structures-and-algorithms/pull/38|
 |code33 |[pull](https://github.com/suhaib079/data-structures-and-algorithms/pull/39|
+|code35 |[pull](https://github.com/suhaib079/data-structures-and-algorithms/pull/41|
 
 
 
