@@ -35,6 +35,23 @@ class Graph:
     def size(self):
         return len(self._adjacency_list)
 
+
+     # code challange 36 
+
+    def breadth_first_search(self, s):
+        visited = [False] * (len(self._adjacency_list))
+        queue = []
+        queue.append(s)
+        visited[s] = True
+        while queue:
+            s = queue.pop(0)
+            print(s, end=" ")
+            for i in self._adjacency_list[s][0]:
+                print(i)
+                if visited[i] == False:
+                    queue.append(i)
+                    visited[i] = True
+
 if __name__ == "__main__":
     graph = Graph()
     graph.add_node('suhaib')
