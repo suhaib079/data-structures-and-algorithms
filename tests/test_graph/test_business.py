@@ -1,0 +1,21 @@
+from data_structures_and_algorithms.graph.graph import Graph
+def test_business_trip():
+  gr = Graph()
+  v1= gr.add_node('Irbid')
+  v2 =gr.add_node('Ajlun')
+  v3=gr.add_node('Zarqa')
+  v4=gr.add_node('Amman')
+  v5=gr.add_node('Karak')
+  v6=gr.add_node('Tafeleh')
+  v7=gr.add_node('Aqaba')
+  gr.add_edge(v1,v2,)
+  gr.add_edge(v1,v3,10)
+  gr.add_edge(v2,v4,25)
+  gr.add_edge(v3,v4,35)
+  gr.add_edge(v3,v5,370)
+  gr.add_edge(v4,v5,255)
+  gr.add_edge(v2,v3,5)
+  gr.add_edge(v3,v6,5)
+  gr.add_edge(v5,v6,420)
+  cities=[v1,v3,v5 ]
+  assert gr.business_trip(cities) == (True,'$380')
